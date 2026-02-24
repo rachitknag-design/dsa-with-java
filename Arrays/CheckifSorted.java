@@ -20,23 +20,12 @@ public class CheckifSorted{
             }
         }
 
-        // for(int i=0;i<arr.length-1;i++){
-        //     if(arr[i]<arr[i+1]){
-        //         count++;
-        //     }
-        // }
-        // for(int i=0;i<arr.length-1;i++){
-        //     if(arr[i]>arr[i+1]){
-        //         count++;
-        //     }
-        // }
         if(count == arr.length-1){
             issorted = true;
         }
-
-
         return issorted; 
     }
+    
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
