@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class MaximumSubarraySum {
 
+    //Kadane's Algorithm
+
     static int maxSumSubArray(int[] arr){
        int maxSum = Integer.MIN_VALUE;
        int sum =0 ;
