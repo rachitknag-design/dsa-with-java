@@ -34,5 +34,7 @@ public class CreateTwoArraysoneforOddElementsandoneforEvenElements {
             System.out.print(ele+" ");
         }
         System.out.println("]");
+
+        sc.close();
     }
 }
