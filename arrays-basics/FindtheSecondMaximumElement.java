@@ -14,6 +14,7 @@ public class FindtheSecondMaximumElement {
         }
 
         if(second_max == Integer.MIN_VALUE){
+            System.out.println(-1);
             return;
         }else{
             System.out.println("Second maximum element : "+second_max);
