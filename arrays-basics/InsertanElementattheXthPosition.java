@@ -15,6 +15,7 @@ public class InsertanElementattheXthPosition {
 
         if(x<1||x>arr.length){
             System.out.println("Invalid input");
+            sc.close();
             return;
         }
 
