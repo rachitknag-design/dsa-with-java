@@ -29,5 +29,7 @@ public class InsertanElementattheXthPosition {
 
         System.out.println(Arrays.toString(newArr));
 
+        sc.close();
+
     }    
 }
