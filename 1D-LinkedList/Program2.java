@@ -41,6 +41,7 @@ public class Program2 {
             System.out.print(temp.data+" ");
             temp = temp.next;
         }
+        System.out.println();
     }
 
     static Node insertAtHead(Node head, int data) {
