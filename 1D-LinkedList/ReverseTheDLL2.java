@@ -1,8 +1,5 @@
 // Reverse a Doubly Linked List
 //This is using stack 
-
-import java.util.Stack;
-
 class Node{
     int data;
     Node next;
