@@ -1,5 +1,4 @@
 // Reverse a Doubly Linked List
-//This is using stack 
 class Node{
     int data;
     Node next;
