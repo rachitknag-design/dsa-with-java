@@ -1,5 +1,19 @@
 // Detect a Cycle in a Linked List
 
+//Approach 1: ()
+//traverse the List and added the list nodes into a stack
+//while adding into to the stack check wheather the node already in the stack
+//if the stack contains the node then return true -> cycle exists.
+//if the List is traversed completely then return false -> cycle doesn't exists.
+
+//Approach 2:
+//Take two pointer slow and fast, assignn both to head
+//move slow one step and fast 2 step
+// and compare both slow and fast node 
+// If cycle exists then eventually slow and fast will overlap
+//if(slow==fast) return true -> cycle exists
+//if fast node reaches null or fast.next reaches null then return false -> cycle doesn't exists.
+
 import java.util.HashSet;
 import java.util.Set;
 
