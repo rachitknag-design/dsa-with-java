@@ -8,7 +8,7 @@ public class CountLettersNumbersandSpecialCharactersinaString {
         for(char ch: str.toCharArray()){
             if(Character.isAlphabetic(ch))
                 cl++;
-            else if('0'<=ch||ch>='9')
+            else if(Character.isDigit(ch))
                 cn++;
             else
                 csc++;
